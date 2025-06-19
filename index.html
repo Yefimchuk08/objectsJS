@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Завдання з об'єктами</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Завдання з об'єктами JavaScript</h1>
+
+  <section>
+    <h2>Завдання 1: Автомобіль</h2>
+    <button onclick="car.showInfo()">Показати інформацію про авто</button>
+    <button onclick="calculateTravelTime()">Розрахувати час подорожі</button>
+    <input type="number" id="distance" placeholder="Введіть відстань (км)">
+    <p id="carOutput"></p>
+  </section>
+
+  <section>
+    <h2>Завдання 2: Дроби</h2>
+    <button onclick="fractionsOperations()">Показати операції з дробами</button>
+    <p id="fractionOutput"></p>
+  </section>
+
+  <section>
+    <h2>Завдання 3: Час</h2>
+    <button onclick="time.show()">Показати час</button>
+    <button onclick="time.addSeconds(30)">+30 секунд</button>
+    <button onclick="time.addMinutes(45)">+45 хвилин</button>
+    <button onclick="time.addHours(2)">+2 години</button>
+    <p id="timeOutput"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
